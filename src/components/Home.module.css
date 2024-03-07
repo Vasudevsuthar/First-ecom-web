@@ -1,0 +1,81 @@
+.topmost{
+    background:#777;
+    color:white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.playText{
+    display: flex;
+    padding: 15px 30px;
+    font-weight: 200;
+    background: inherit;
+    cursor: pointer;
+    color: white;
+    align-self: center;
+}
+.playText> p{
+    align-self: center;
+    text-align: center;
+    border: 2px solid #56CCF2;
+    font-size: 30px;
+    height: 4rem;
+    padding: 10px;
+}
+.playBtn{
+    display: flex;
+    cursor: pointer;
+    display: block;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: 200;
+    margin: 20px auto;
+    background: inherit;
+    color: #56CCF2;
+    position: relative;
+    /* left: 42rem; */
+    bottom: 2rem;
+}
+.container{
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 20px 30px;
+    margin-bottom: 2rem;
+    /* height: 150vh; */
+}
+.heading{
+    font-family: "Metal Mania";
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.outer{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.date{
+    width: 12%;
+}
+.place{
+    width: 25%;
+    color: #777;
+}
+.title{
+    width: 53%;
+    color: #777;
+}
+.buyBtn{
+    width: 20%;
+    background: #56CCF2;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
